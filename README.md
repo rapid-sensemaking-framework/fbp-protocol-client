@@ -18,7 +18,7 @@ Changes
 
 
 
-pending fix
+pending fix for electron circumstances
 
 ```
 isBrowser = function isBrowser() {
