@@ -15,3 +15,13 @@ Changes
   - Added `sendTrace` method for sending trace subprotocol messages
   - Added `trace` event for incoming trace subprotocol messages
   - Added `message` event for all incoming protocol messages
+
+
+
+pending fix
+
+```
+isBrowser = function isBrowser() {
+  return !(typeof process !== 'undefined' && process.execPath && (process.execPath.indexOf('.app') !== -1 || process.execPath.indexOf('node') !== -1));
+};
+```
